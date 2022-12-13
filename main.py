@@ -5,7 +5,6 @@ import random
 def random_chromosome(size):
     return [random.randint(0, size - 1) for _ in range(size)]
 
-
 # Calculating fitness
 def fitness(chromosome, maxFitness):
     horizontal_collisions = (
