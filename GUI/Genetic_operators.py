@@ -30,3 +30,6 @@ class OP:
           diagonal_collisions += counter
       # 28-(2+3)=23
       return int(self.maxFitness - (horizontal_collisions + diagonal_collisions))
+
+    
+    
